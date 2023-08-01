@@ -4,7 +4,7 @@ const notes = require('./notes')
 
 // add remove read list
 
-// add
+// add notes
 yargs.command({
     command: 'add',
     describe: 'Add a new note',
@@ -25,7 +25,7 @@ yargs.command({
     }
 })
 
-// remove
+// remove notes
 yargs.command({
     command: 'remove',
     describe: 'Remove the note',
@@ -41,7 +41,7 @@ yargs.command({
     }
 })
 
-// list
+// list notes
 yargs.command({
     command: 'list',
     describe: 'List your notes',
@@ -50,7 +50,7 @@ yargs.command({
     }
 })
 
-// read
+// read notes
 yargs.command({
     command: 'read',
     describe: 'Read note',
